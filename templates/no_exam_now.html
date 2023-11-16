@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>
+        No Exam Now
+    </h1>
+    {% for element in noexamnow %}
+    <h2>{{ element.noexamnow }}</h2>
+    <p>{{ element.details }}</p>
+    {% endfor %}
+</body>
+
+</html>
